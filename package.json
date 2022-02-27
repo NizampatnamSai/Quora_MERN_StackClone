@@ -1,0 +1,20 @@
+{
+  "name": "Quora_Clone2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix quora_mern_clone",
+    "server": "nodemon quora_backend/Server",
+    "start": "nodemon --watch quora_backend --exec node quora_backend/Server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.7.2",
+    "firebase": "^9.6.6",
+    "react-redux": "^7.2.6"
+  }
+}
